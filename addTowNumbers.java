@@ -37,7 +37,6 @@ public class addTowNumbers {
 			int val1 = (p1 == null) ? 0: p1.val;
 			int val2 = (p2 == null) ? 0: p2.val;
 			
-			System.out.println("Val1:  " + val1 + " Val2:  " + val2);
 			int sum = val1 + val2 + carry;
 			
 			carry = sum / 10; // ¼ÆËã½øÎ»
