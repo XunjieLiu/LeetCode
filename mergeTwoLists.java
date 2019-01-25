@@ -57,7 +57,7 @@ public class mergeTwoLists {
                 newLd = newLd.next;
                 l2 = l2.next;
                 continue;
-            }
+                }
             if(l2==null){
                 newLd.next = l1;
                 newLd = newLd.next;
